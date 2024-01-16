@@ -12,7 +12,7 @@ jobs:
 
 
     steps:
-      - uses: actions/checkout@vq
+      - uses: actions/checkout@v2
 
       - name: Install Java
         uses: action/setup-java@v1
